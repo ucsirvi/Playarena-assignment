@@ -30,7 +30,7 @@ const PlayYourWay = () => {
   return (
     <section className="bg-gradient-to-b from-purple-900 to-blue-900 py-12">
       <div className="container m-auto px-6 md:px-12 lg:px-20">
-        {/* Section Title */}
+
         <h2 className="text-5xl font-extrabold text-pink-400 mb-6 text-left">
           Play, Your Way
         </h2>
@@ -42,14 +42,14 @@ const PlayYourWay = () => {
           choose from.
         </p>
 
-        {/* Cards */}
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {cards.map((card, index) => (
             <div
               key={index}
               className="bg-purple-800 rounded-lg overflow-hidden transform transition-transform hover:-translate-y-4 shadow-lg hover:shadow-xl"
             >
-              {/* Icon and Title */}
+
               <div className="flex gap-3 items-center p-6">
                 <img
                   src={card.icon}
@@ -60,13 +60,13 @@ const PlayYourWay = () => {
                   {card.title}
                 </h3>
               </div>
-              {/* Main Image */}
+
               <img
                 src={card.image}
                 alt={card.title}
                 className="w-full h-48 object-cover"
               />
-              {/* Description */}
+
               <div className="p-6">
                 <p className="text-purple-200 text-sm font-medium mb-6 leading-relaxed text-justify">
                   {card.description}
@@ -96,7 +96,7 @@ const PlayYourWay = () => {
           ))}
         </div>
 
-        {/* Custom Event Link */}
+
         <div className="mt-12 text-center">
           <a
             href="#"
