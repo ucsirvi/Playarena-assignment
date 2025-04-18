@@ -4,7 +4,7 @@ const BookYourSlots = () => {
   return (
     <section className="bg-gradient-to-b from-purple-900 to-blue-900 text-gray-300 py-12">
       <div className="container mx-auto px-4">
-        {/* Section Title */}
+
         <h2 className="text-4xl font-bold text-pink-400 mb-4">
           Book your slots
         </h2>
@@ -12,7 +12,7 @@ const BookYourSlots = () => {
           To find special offers, occupancy rates and free time
         </p>
 
-        {/* Date and Info */}
+
         <div className="flex items-center justify-between bg-purple-800 text-white p-4 rounded-lg mb-6 shadow-lg">
           <span className="text-lg font-medium">Wednesday, 16 April 2025</span>
           <svg
@@ -31,7 +31,7 @@ const BookYourSlots = () => {
           </svg>
         </div>
 
-        {/* Plan Your Day */}
+
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
           <div>
             <h3 className="text-lg font-bold text-pink-400">
