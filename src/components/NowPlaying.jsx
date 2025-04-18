@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "react-slick"; // Install react-slick and slick-carousel for slider functionality
+import Slider from "react-slick"; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -87,7 +87,7 @@ const NowPlaying = () => {
         <Slider {...settings}>
           {events.map((event, index) => (
             <div key={index} className="px-4">
-              {/* Event Card */}
+
               <div
                 className={`rounded-lg shadow-lg overflow-hidden ${event.bgColor} hover:shadow-xl transition-transform transform hover:-translate-y-2`}
               >
@@ -97,7 +97,7 @@ const NowPlaying = () => {
                   className="w-full h-48 object-cover"
                 />
               </div>
-              {/* Event Details */}
+
               <div className="mt-4">
                 <h3 className="text-lg font-bold text-pink-400">
                   {event.title}
