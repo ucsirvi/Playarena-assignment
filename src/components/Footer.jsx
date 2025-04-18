@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-purple-900 to-blue-900 text-purple-100 py-12">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Newsletter Section */}
+
         <div>
           <h3 className="text-2xl font-semibold text-pink-400 mb-4">
             Stay Connected
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Address Section */}
+
         <div>
           <h3 className="text-xl font-semibold text-pink-400 mb-4">
             Contact Us
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Links Section */}
+
         <div>
           <h3 className="text-xl font-semibold text-pink-400 mb-4">
             Quick Links
@@ -130,7 +130,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Participate & Host Section */}
+
         <div>
           <h3 className="text-xl font-semibold text-pink-400 mb-4">
             Participate
