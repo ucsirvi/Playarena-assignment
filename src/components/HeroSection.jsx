@@ -182,7 +182,7 @@ const HeroSection = () => {
 
   return (
     <section id="hero" className="relative h-[80vh] flex flex-col justify-end">
-      {/* Background Video */}
+
       <video
         className="absolute inset-0 w-full object-cover max-h-[70vh]"
         autoPlay
@@ -196,10 +196,10 @@ const HeroSection = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* Overlay */}
+
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-      {/* Hero Content */}
+
       <div className="relative z-10 text-white text-center px-4 flex flex-col justify-center h-full">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Welcome to Play Arena
@@ -223,7 +223,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Cards Section */}
+
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-5 gap-0 p-0 bg-gradient-to-r from-purple-900 via-blue-900 to-pink-900">
         {cards.map((card, index) => (
           <div
