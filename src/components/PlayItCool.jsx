@@ -21,7 +21,7 @@ const PlayItCool = () => {
 
   return (
     <section className="bg-gradient-to-b from-purple-900 to-blue-900 text-gray-300 relative pb-10">
-      {/* Scrolling Banner */}
+
       <div className="bg-pink-600 text-gray-100 font-medium overflow-hidden whitespace-nowrap py-4">
         <div
           className="inline-block animate-scroll-left"
@@ -33,14 +33,14 @@ const PlayItCool = () => {
         </div>
       </div>
 
-      {/* Background Shapes */}
+
       <div
         className="absolute inset-0 bg-gradient-to-b from-purple-900 to-blue-900"
         style={{ zIndex: -1 }}
       ></div>
 
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
-        {/* Section Title */}
+
         <div className="mb-12 text-center">
           <h2 className="text-5xl md:text-6xl font-extrabold text-pink-400 mb-4 p-10">
             Play it <span className="text-blue-400">cool</span>
@@ -67,7 +67,7 @@ const PlayItCool = () => {
           </button>
         </div>
 
-        {/* Features */}
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {features.map((feature, index) => (
             <div
