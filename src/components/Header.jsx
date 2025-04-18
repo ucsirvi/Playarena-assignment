@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="bg-gradient-to-r from-purple-900 via-blue-900 to-pink-900 text-white p-5 relative z-50 flex">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
+
         <div className="flex items-center mr-10">
           <img
             src="https://playarena.in/wp-content/themes/playarena.in/img/logo.svg"
@@ -15,7 +15,7 @@ const Header = () => {
           />
         </div>
 
-        {/* Hamburger Menu Button */}
+
         <button
           className="block md:hidden text-white focus:outline-none"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -36,14 +36,14 @@ const Header = () => {
           </svg>
         </button>
 
-        {/* Navigation Menu */}
+
         <nav
           className={`${
             isMenuOpen ? "block" : "hidden"
           } absolute top-16 left-0 w-full bg-gradient-to-r from-purple-900 via-blue-900 to-pink-900 md:static md:block ml-auto`}
         >
           <ul className="flex flex-col md:flex-row md:space-x-8 text-center md:text-left">
-            {/* Play Dropdown */}
+
             <li className="relative group">
               <a
                 href="#play"
@@ -66,7 +66,7 @@ const Header = () => {
                 </svg>
               </a>
               <ul className="absolute hidden group-hover:flex bg-transparent text-white md:mt-6 z-50 w-full p-6 grid grid-cols-4 animate-scroll-left">
-                {/* Pixel Section */}
+
                 <div className="bg-pink-500 p-4  shadow-lg">
                   <h3 className="text-lg font-bold mb-2">PIXEL</h3>
                   <ul className="space-y-1">
@@ -81,7 +81,7 @@ const Header = () => {
                   </ul>
                 </div>
 
-                {/* Studio Section */}
+
                 <div className="bg-purple-500 p-4  shadow-lg">
                   <h3 className="text-lg font-bold mb-2">STUDIO</h3>
                   <ul className="space-y-1">
@@ -96,7 +96,7 @@ const Header = () => {
                   </ul>
                 </div>
 
-                {/* Union Section */}
+
                 <div className="bg-blue-500 p-4  shadow-lg">
                   <h3 className="text-lg font-bold mb-2">UNION</h3>
                   <ul className="space-y-1">
@@ -110,7 +110,7 @@ const Header = () => {
                   </ul>
                 </div>
 
-                {/* Prime Section */}
+
                 <div className="bg-pink-600 p-4  shadow-lg">
                   <h3 className="text-lg font-bold mb-2">PRIME</h3>
                   <ul className="space-y-1">
@@ -124,7 +124,7 @@ const Header = () => {
               </ul>
             </li>
 
-            {/* Participate Dropdown */}
+
             <li className="relative group">
               <a
                 href="#participate"
@@ -172,7 +172,7 @@ const Header = () => {
               </ul>
             </li>
 
-            {/* Host Dropdown */}
+
             <li className="relative group">
               <a
                 href="#host"
@@ -248,7 +248,7 @@ const Header = () => {
               </ul>
             </li>
 
-            {/* F&B Dropdown */}
+
             <li className="relative group">
               <a
                 href="#fnb"
@@ -296,7 +296,7 @@ const Header = () => {
               </ul>
             </li>
 
-            {/* About Us */}
+
             <li>
               <a
                 href="#about"
